@@ -1,4 +1,16 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* ===== Style général pour <main> ===== */
 main {
   padding: 2rem;
@@ -71,19 +83,12 @@ main {
 }
 
 .member img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%; /*transforme en cercle ! */
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
 
 /* Footer Jordan*/
 
@@ -142,4 +147,3 @@ footer{
   text-align: center;
   font-size: 19px;
 }
->>>>>>> footer
