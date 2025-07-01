@@ -1,0 +1,74 @@
+/* Réinitialisation de base */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* En-tête */
+header {
+    background-color: #c7ebf8;
+}
+
+/* Clearfix pour contenir les flottants */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Conteneur centré */
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    color: black;
+}
+
+/* Logo */
+header img {
+    width: 80px;
+    height: 150px;
+    object-fit: contain;
+    float: left;
+    margin-top: -25px;
+    /* Ajuste si besoin en fonction du rendu */
+
+}
+
+/* Titre principal */
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 50px;
+    color: #0091e2;
+    float: left;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+/* Navigation */
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    align-items: center;
+}
+
+/* Lien */
+a {
+    word-spacing: 10px;
+    text-decoration: none;
+    color: inherit;
+}
